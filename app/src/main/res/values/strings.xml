@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Font</string>
+    <string name="hint_add_some_text">TAP TO TYPE</string>
+</resources>

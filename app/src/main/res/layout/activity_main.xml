@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradiant"
+    android:orientation="vertical">
+
+    <com.agilie.RotatableAutofitEditText xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:autofit="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/autoResizeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="@string/hint_add_some_text"
+        android:padding="16dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        autofit:clipBounds="true"
+        autofit:maxTextSize="@dimen/autoresize_max_text_size"
+        autofit:minTextSize="@dimen/autoresize_min_text_size"
+        autofit:minWidth="@dimen/autoresize_min_width"
+        autofit:movable="true"
+        autofit:resizable="true"
+        autofit:rotatable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbtn"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbtn2"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbtn3"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbtn4"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbtn5"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbtn6" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbtn7" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/roundbtn8" />
+    </LinearLayout>
+
+</LinearLayout>
